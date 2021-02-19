@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>My Teamlease!</title>
+</head>
+
+<body>
+    <div class=".container-fluid">
+        <nav class="navbar navbar-light bg-light p-1">
+            <div class="container-fluid">
+                <a class="navbar-brand text-success font-weight-bold">My Teamlease</a>
+                <form class="d-flex">
+                    <div class="input-group border border-success mb-1 border rounded-pill p-1">
+                        <input type="search"
+                            class=" form-control bg-light border rounded-pill border border-success border-0 ml-1">
+                        <div class="input-group-append border-3">
+                            <button id="button-addon3" type="button" class="btn btn-link text-success"><i
+                                    class="fa fa-search"></i></button>
+                        </div>
+                    </div>
+                    <div class="container p-3">
+                        <span><i class=" text-success far fa-envelope p-1 ml-1"></i></span>
+                        <span><i class=" text-success far fa-bell ml-2"></i></span>
+                        <span><i class=" text-success fas fa-th ml-2"></i></span>
+                        <span class="text-black ml-2"><i class=" ml-2 fas fa-user-circle"></i> CFO, Finance <i
+                                class="fas fa-angle-down"></i></span>
+                    </div>
+                </form>
+            </div>
+        </nav>
+    </div>
+    <div class="container-fluid bg-light border-rad my-2">
+        <div class="d-flex flex-row">
+            <div class="p-3"><span><i class="fas fa-laptop p-1"></i> Dashboard</span></div>
+            <div class="p-3 text-success"><span><i class="text-success fas fa-briefcase  p-1"></i> My Workspace</span>
+            </div>
+            <div class="p-3"> <span><i class="far fa-file-alt p-1"></i> Reports</span></div>
+            <div class="ml-auto p-3"><i class="fas fa-cog"></i> Help</div>
+        </div>
+        <hr>
+        <div class="d-flex flex-row">
+            <div class="p-3 text-success"><span>Manage Jobs</span></div>
+            <div class="p-3"><span>Manage Approvals</span></div>
+            <div class="p-3"><span>Manage Clients</span></div>
+            <div class="p-3"><span>Manage Invoice</span></div>
+        </div>
+    </div>
+
+    <div class="container-fluid bg-light border-rad my-2">
+        <div class="d-flex flex-row">
+            <div class="p-3"><span>Search By <i class="fas fa-angle-down p-2"></i> </span></div>
+            <div class="p-3 text-success"><span><input type="search"
+                        class=" form-control bg-enterhere border rounded-pill border border-success border-0 ml-1"
+                        placeholder="Enter value here"></span>
+            </div>
+            <div class="p-3"> <span>Location <i class="fas fa-angle-down p-2"></i> </span></div>
+            <div class="p-3"> <span>Status <i class="fas fa-angle-down p-2"></i> </span></div>
+            <div class="p-3"> <span>Job post date <i class="far fa-calendar p-2"></i></span></div>
+            <div class="p-3"> <span>Job expiry date <i class="far fa-calendar p-2"></i></span></div>
+            <div class="p-3"> <span>Job type <i class="fas fa-angle-down p-2"></i> </span></div>
+            <div class="ml-auto p-3"><button type="button" class="btn btn-success">Post new job</button></div>
+        </div>
+        <hr>
+        <div class="d-flex flex-row">
+            <div class="p-3"><span>Job Priority<i class="fas fa-angle-down p-2"></i> </span></div>
+            <div class="p-3 text-success"><span><input type="search"
+                        class=" form-control bg-enterhere border rounded-pill border border-success border-0"
+                        placeholder="Enter SRC here"></span>
+            </div>
+            <div class="p-3"> <span>Filter by Type <i class="fas fa-angle-down p-2"></i> </span></div>
+            <div class="p-3"> <span><i class="fas fa-times p-2"></i> Clear All</span></div>
+        </div>
+    </div>
+
+    <div class="container-fluid bg-light border-rad my-2">
+        <div class="d-flex flex-row">
+            <div class="p-3"><input type="checkbox" class="mr-3"><span>Change Status <i
+                        class="fas fa-angle-down p-2"></i> </span></div>
+            <div class="p-3"> <span><i class="far fa-file-excel text-success p-2"></i>Download Excel</span></div>
+            <div class="p-3"><button type="button" class="btn btn-success">Notify Client</button></div>
+            <div class="ml-auto p-3"><span>Total Jobs Posted:<strong>1000</strong></span></div>
+        </div>
+    </div>
+
+    <div class="container-fluid bg-light border-rad my-2">
+        <div class="container p-0 ml-0">
+            <div class="row">
+                <div class="col-7">
+                    <div class="d-flex flex-row">
+                        <div class="p-3"><input type="checkbox" class="mr-2"><strong>Software Engineer</strong><span
+                                class="p-1"> (ID:100010)</span><i class="far fa-edit"></i></div>
+                    </div>
+                    <div class="d-flex align-items-start ml-5">
+                        <span><i class="fas fa-map-marker-alt"></i> Bangalore, New Delhi, Hyderbad <i
+                                class="fas fa-user p-1"></i> <i class="fas fa-plus p-1"></i> <i
+                                class="fas fa-share-alt p-1"></i> </span>
+                    </div>
+                    <div class="d-flex align-items-start ml-5">
+                        <span class="p-1"><a href="#">Line-up</a></span>
+                        <span class="p-1"><a href="#">Bulk Upload</a></span>
+                        <span class="p-1"><a href="#">Resume Search</a></span>
+                        <span class="p-1"><a href="#">Bulk Parser</a></span>
+                        <span class="p-1"><a href="#">Auto-Match Profiles</a></span>
+                    </div>
+                    <div class="d-flex align-items-start ml-5">
+                        <span class="p-1">Posted On:<strong> 10-08-2019</strong></span>
+                        <span class="p-1">Last Updated On:<strong> 10-08-2019</strong></span>
+                        <span class="p-1">Job Status:<strong> Active <i
+                                    class="fas fa-angle-down p-1"></i></strong></span>
+                    </div>
+                </div>
+                <div class="col-5">
+                    <div class="row d-flex flex-row bd-highlight mb-3">
+                        <div class="col-sm-3 col-md-4 col-6 circle-progress-block">
+                            <div id="circleProgress1" class="progressbar-js-circle border rounded p-3">
+                                <svg viewBox="0 0 100 100" style="display: block; width: 100%;">
+                                    <path d="M 50,50 m 0,-48 a 48,48 0 1 1 0,96 a 48,48 0 1 1 0,-96"
+                                        stroke="#eee" stroke-width="4" fill-opacity="0"></path>
+                                    <path d="M 50,50 m 0,-48 a 48,48 0 1 1 0,96 a 48,48 0 1 1 0,-96"
+                                        stroke="rgb(159,162,179)" stroke-width="4" fill-opacity="0"
+                                        style="stroke-dasharray: 301.635, 301.635; stroke-dashoffset: 199.079;">
+                                    </path>
+                                </svg>
+                                <div class="progressbar-text"
+                                    style="position: absolute; left: 50%; top: 50%; padding: 0px; margin: 0px; transform: translate(-50%, -50%); color: rgb(0, 0, 0); font-size: 1rem;">
+                                    34
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 col-md-4 col-6 circle-progress-block">
+                            <div id="circleProgress1" class="progressbar-js-circle border rounded p-3">
+                                <svg viewBox="0 0 100 100" style="display: block; width: 100%;">
+                                    <path d="M 50,50 m 0,-48 a 48,48 0 1 1 0,96 a 48,48 0 1 1 0,-96"
+                                        stroke="#eee" stroke-width="4" fill-opacity="0"></path>
+                                    <path d="M 50,50 m 0,-48 a 48,48 0 1 1 0,96 a 48,48 0 1 1 0,-96"
+                                        stroke="rgb(159,162,179)" stroke-width="4" fill-opacity="0"
+                                        style="stroke-dasharray: 301.635, 301.635; stroke-dashoffset: 199.079;">
+                                    </path>
+                                </svg>
+                                <div class="progressbar-text"
+                                    style="position: absolute; left: 50%; top: 50%; padding: 0px; margin: 0px; transform: translate(-50%, -50%); color: rgb(0, 0, 0); font-size: 1rem;">
+                                    34
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 col-md-4 col-6 circle-progress-block">
+                            <div id="circleProgress1" class="progressbar-js-circle border rounded p-3">
+                                <svg viewBox="0 0 100 100" style="display: block; width: 100%;">
+                                    <path d="M 50,50 m 0,-48 a 48,48 0 1 1 0,96 a 48,48 0 1 1 0,-96"
+                                        stroke="#eee" stroke-width="4" fill-opacity="0"></path>
+                                    <path d="M 50,50 m 0,-48 a 48,48 0 1 1 0,96 a 48,48 0 1 1 0,-96"
+                                        stroke="rgb(159,162,179)" stroke-width="4" fill-opacity="0"
+                                        style="stroke-dasharray: 301.635, 301.635; stroke-dashoffset: 199.079;">
+                                    </path>
+                                </svg>
+                                <div class="progressbar-text"
+                                    style="position: absolute; left: 50%; top: 50%; padding: 0px; margin: 0px; transform: translate(-50%, -50%); color: rgb(0, 0, 0); font-size: 1rem;">
+                                    34
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+                        crossorigin="anonymous"></script>
+</body>
+
+</html>

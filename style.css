@@ -1,0 +1,13 @@
+.border-rad{
+    border-radius: 20px;
+}
+
+.bg-enterhere{
+    background-color: rgb(197, 240, 197);
+}
+
+.form-control:focus {
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
